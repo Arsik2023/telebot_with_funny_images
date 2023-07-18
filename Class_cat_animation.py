@@ -8,5 +8,3 @@ class Random_cat_animation:
         url ='https://cataas.com/cat/gif?json=true'
         response = get(url).json()
         return 'https://cataas.com/'+response['url']
-""" a = Random_cat_animation
-print(a.Random_cat_animation_url()) """
