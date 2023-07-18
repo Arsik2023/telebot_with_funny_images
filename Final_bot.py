@@ -6,7 +6,7 @@ import Class_Cat_API
 import Class_random_cat_text
 import Class_cat_animation
 
-token = '5922342212:AAH21sOH9MwqzcSFv8Qg_RON52A9J4WnWKQ'
+token = 'your token'
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
 
