@@ -8,5 +8,3 @@ class Random_cat_photo_text:
         url = 'https://cataas.com/cat/says/'+self.text+'?json=true'
         response = get(url).json()
         return 'https://cataas.com/'+response['url']
-""" a = Random_cat_photo_text('hello')
-print(a.Random_cat_photo_text_url()) """
